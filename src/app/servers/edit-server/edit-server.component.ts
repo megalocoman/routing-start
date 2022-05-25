@@ -19,9 +19,6 @@ export class EditServerComponent implements OnInit, CanComponentDeactivate {
 
   constructor(private serversService: ServersService, private route: ActivatedRoute, private router: Router) { }
 
-
-
-
   ngOnInit() {
     console.log(this.route.snapshot.queryParamMap);
     console.log(this.route.snapshot.fragment);
